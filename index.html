@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Fetch API</title>
+    <link rel="stylesheet" href="css/materialize.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="section section-search teal darken-1 white-text center scrollspy">
+            <h2>Fetch API</h2>
+        </div>
+        <div class="section grey darken-1 center">
+
+            <button id="getUsers" class="btn orange">Get Users</button>
+            <button id="getText" class="btn teal">Get Text</button>
+            <button id="getGames" class="btn purple">Get Games</button>
+            <button id="getPosts" class="btn pink">Get Posts</button>
+        </div>
+        <div id="output" class="blue-grey white-text card card-content"></div>
+
+        <div id="form" class="blue-grey white-text card card-content">
+            <form id="addPost">
+                <h5 class="center white-text">Post to JSON Placeholder</h5>
+                <div>
+                    <input type="text" id="title" placeholder="title">
+                </div>
+                <div>
+                    <textarea id="body" placeholder="add text here" class="materialize-textarea"></textarea>
+                </div>
+                <input type="submit" value="submit" class="btn cyan">
+
+            </form>
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
